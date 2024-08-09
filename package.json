@@ -1,0 +1,49 @@
+{
+  "name": "email-normalizer",
+  "type": "module",
+  "version": "1.0.0",
+  "private": false,
+  "packageManager": "pnpm@9.2.0",
+  "description": "Normalize email addresses",
+  "author": "Corentin Th <corentin.thomasset74+npm@gmail.com> (https://github.com/CorentinTh)",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/CorentinTh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CorentinTh/email-normalizer"
+  },
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "pnpm run build",
+    "build": "unbuild",
+    "release": "standard-version",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "pnpm run test:unit",
+    "test:unit": "vitest run",
+    "test:unit:watch": "vitest watch"
+  },
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.0",
+    "eslint": "^9.8.0",
+    "standard-version": "^9.5.0",
+    "unbuild": "^2.0.0",
+    "vitest": "^2.0.5"
+  }
+}
