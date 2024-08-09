@@ -1,8 +1,6 @@
-# Email Normalizer
+![Email Normalizer header](./.github/readme-header.png)
 
-[![NPM Version](https://img.shields.io/npm/v/email-normalizer.svg)](https://www.npmjs.com/package/email-normalizer)
-[![License](https://img.shields.io/npm/l/email-normalizer.svg)](https://github.com/CorentinTh/email-normalizer/blob/main/LICENSE)
-[![Build Status](https://github.com/CorentinTh/email-normalizer/actions/workflows/ci.yml/badge.svg)](https://github.com/CorentinTh/email-normalizer/actions/workflows/ci.yml)
+# Email Normalizer
 
 A simple Node.js package to normalize email addresses by removing dots, stripping plus signs, and handling domain renaming.
 
