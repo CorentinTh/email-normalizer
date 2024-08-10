@@ -11,6 +11,9 @@ A simple Node.js package to normalize email addresses by removing dots, strippin
 - Strips plus signs and the following tags
 - Renames domains (e.g., `googlemail.com` to `gmail.com`)
 - Supports common email providers like Gmail, Googlemail, Hotmail, Live, and Outlook
+- No dependencies
+- Lightweight and runtime agnostic
+- Typescript, ES6, and CommonJS support
 
 ## Installation
 
